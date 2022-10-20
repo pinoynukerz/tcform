@@ -1,4 +1,19 @@
-<?php
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>MAIL</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+</head>
+
+<body>
+   <?php
 //ini_set('display_errors', 1 );
 ini_set('Show errors here', 1);
 error_reporting(E_ALL);
@@ -16,4 +31,8 @@ $error_message = 'Mail not sending';
 if ($sent_mail) echo 'Mail sent successfully!';
 else echo $error_message;
 ?>
+
+</body>
+
+</html>
 

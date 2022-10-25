@@ -18,7 +18,7 @@
 ini_set('Show errors here', 1);
 error_reporting(E_ALL);
 //Write your Email Test address here
-$from = 'alfred.mattz@gmail.com';
+$from = 'jmattz23@hotmail.com';
 //Write the email address you are sending the email to
 $to = 'jmattz23@hotmail.com';
 $subject = 'PHP Mail Test';
